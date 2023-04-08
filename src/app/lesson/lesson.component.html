@@ -1,6 +1,6 @@
-<p>Jadval</p>
-Dars nomi: {{ title | uppercase }} <br/>
-Narx: {{ price | currency:'USD'}} <br/>
-Davomiylik: (soat): {{duration | number}} <br/>
-Yopilish sanasi: {{intakeDeadline | date}} <br/>
+
+Dars nomi: {{ lesson.title | uppercase }} <br/>
+Narx: {{ lesson.price | currency:'USD'}} <br/>
+Davomiylik: (soat): {{lesson.duration | number}} <br/>
+Yopilish sanasi: {{lesson.intakeDeadline | date}} <br/>
 <br/>
